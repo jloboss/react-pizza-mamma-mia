@@ -1,8 +1,9 @@
+import fondoPizza from "../assets/img/pizzeria-mamma-mia-header.jpg";
 const Header = () => {
   return (
     <header
       style={{
-        backgroundImage: "url(./src/assets/img/pizzeria-mamma-mia-header.jpg)",
+        backgroundImage: `url(${fondoPizza})`,
         padding: "50px",
         color: "white",
       }}
